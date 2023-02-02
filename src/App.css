@@ -2,6 +2,7 @@ body {
   margin: 0;
   width: 100vw;
   background-color: rgb(175, 175, 226);
+  color: aliceblue;
 }
 code {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -43,5 +44,6 @@ margin-left: 50px;
   padding-inline: 0px;
   margin : 20px;
   border: 2px rgb(175, 175, 226) solid;
+  color: white;
   
 }
