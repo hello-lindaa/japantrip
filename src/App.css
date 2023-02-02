@@ -1,5 +1,47 @@
 body {
   margin: 0;
   width: 100vw;
+  background-color: rgb(175, 175, 226);
+}
+code {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+h1 {
+  text-align: center;
+}
+.image {
+  width: fit-content;
+  height: 175px;
+
+}
+.main {
+display: grid;
+grid-template-columns: repeat(3,1fr);
+justify-content: space-between;
+column-gap: 10px;
+grid-gap: 10px;
+width: 100%;
+text-align:center;
+margin-left: 50px;
+}
+
+
+.card {
+  background-color: rgb(88, 123, 183);
+  border: rgb(245, 207, 248) solid 10px;
+  height: 350px;
+  width: 350px;
+}
+
+.typesBar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding-inline: 0px;
+  margin : 20px;
+  border: 2px rgb(175, 175, 226) solid;
+  
+}
