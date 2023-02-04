@@ -5,6 +5,7 @@ const Place = (props) => {
       <h3>{props.location}</h3>
       <p>{props.types}</p>
       <img src={props.photo} className="image" />
+      <h5>{props.notes}</h5>
     </div>
   )
 }
