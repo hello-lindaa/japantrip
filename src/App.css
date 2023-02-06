@@ -11,10 +11,11 @@ code {
 }
 
 .header {
-  display: flex;
+  display: flexbox;
   text-align: center;
   flex-direction: row;
   justify-content: center;
+  
 
 }
 .image {
