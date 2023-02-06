@@ -8,7 +8,7 @@ import Locations from './components/Locations'
 const App = () => {
   return (
     <div>
-      <h1 className="header">Spring 2023 Japan Trip Itinerary</h1>
+      <h1>Spring 2023 Japan Trip Itinerary</h1>
       <div className="main">
         {data.places.map((place) => (
           <div className="card">

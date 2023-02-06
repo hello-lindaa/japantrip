@@ -2,20 +2,23 @@ body {
   margin: 0;
   width: 100vw;
   background-color: rgb(175, 175, 226);
-  color: aliceblue;
-
+  color: rgb(225, 241, 255);
+  font-size: large;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
 
 code {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.header {
-  display: flexbox;
+h1 {
   text-align: center;
   flex-direction: row;
   justify-content: center;
-  
+  padding: 10px;
 
 }
 .image {
