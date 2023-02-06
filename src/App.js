@@ -2,6 +2,7 @@ import './App.css'
 import Place from './components/Place'
 import Type from './components/Type'
 import data from './places.json'
+import Notes from './components/Notes'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
                 <Type type={types} />
               ))}
             </div>
+            <Notes />
           </div>
         ))}
       </div>
