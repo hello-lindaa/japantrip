@@ -3,6 +3,7 @@ import Place from './components/Place'
 import Type from './components/Type'
 import data from './places.json'
 import Notes from './components/Notes'
+import Locations from './components/Locations'
 
 const App = () => {
   return (
@@ -11,18 +12,17 @@ const App = () => {
       <div className="main">
         {data.places.map((place) => (
           <div className="card">
-            <Place
-              title={place.name}
-              location={place.location}
-              photo={place.image}
-            />
+            <Place title={place.name} photo={place.image} />
+            <Locations location={place.location} />
 
             <div className="typesBar">
               {place.types.map((types) => (
                 <Type type={types} />
               ))}
             </div>
-            <Notes notes={place.notes} />
+            <div className="notesBar">
+              <Notes notes={place.notes} />
+            </div>
           </div>
         ))}
       </div>

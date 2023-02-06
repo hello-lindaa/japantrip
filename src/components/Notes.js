@@ -1,7 +1,7 @@
 import React from 'react'
 const Notes = (props) => {
   return (
-    <div className="noteBar">
+    <div>
       {`Notes: `}
       {props.notes}
     </div>

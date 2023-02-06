@@ -12,11 +12,12 @@ code {
 
 h1 {
   text-align: center;
+
 }
 .image {
   width: fit-content;
   height: 175px;
-
+  border: rgb(179, 241, 249) solid 5px;
 }
 .main {
 display: grid;
@@ -49,3 +50,7 @@ margin-left: 50px;
   
 }
 
+.notesBar {
+  font-style: bold;
+  text-align: center;
+}
