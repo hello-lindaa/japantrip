@@ -22,7 +22,7 @@ const App = () => {
                 <Type type={types} />
               ))}
             </div>
-            <Notes />
+            <Notes notes={place.notes} />
           </div>
         ))}
       </div>
